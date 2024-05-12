@@ -10,18 +10,44 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
-  --accent-color: #FF8DCB; 
+  --accent-color: #ff8dcb;
   --accent-color-title: #353430;
   --accent-color-text: #353430;
-  --accent-color-shadow: #FF8DCB;
-  --accent-color-header-title: #FFC2E6;
+  --accent-color-section-title: var(--accent-color-text);
+  --accent-color-button-active: var(--accent-color-title);
+  --color-menu-list: var(--accent-color-text);
+  --accent-color-title-decor: var(--accent-color);
+  --accent-color-shadow: #ff0070;
+  --accent-color-header-title: #ffc2e6;
   --color-content-text-title: var(--accent-color-text);
-  --accent-color-hover: rgba(50 49 5 0.4);
-  --color-link:var(--accent-color-text);
+  --accent-color-hover: #32312d40;
+  --color-link: var(--accent-color);
+  --accent-color-decorated: var(--accent-color-title);
 }
 
 .page.theme_light .header__rec {
   display: none;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    --accent-color: #ff8dcb;
+    --accent-color-title: #353430;
+    --accent-color-text: #353430;
+    --accent-color-section-title: var(--accent-color-text);
+    --accent-color-button-active: var(--accent-color-title);
+    --color-menu-list: var(--accent-color-text);
+    --accent-color-title-decor: var(--accent-color);
+    --accent-color-shadow: #ff0070;
+    --accent-color-header-title: #ffc2e6;
+    --color-content-text-title: var(--accent-color-text);
+    --accent-color-hover: #32312d40;
+    --color-link: var(--accent-color);
+    --accent-color-decorated: var(--accent-color-title);
+  }
+}
 
+.header__rec {
+  display: none;
+}

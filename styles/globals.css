@@ -8,9 +8,9 @@
 
 body {
   min-inline-size: 375px;
-  max-inline-size: 1024px;
+  max-inline-size: 1440px;
   margin: 0 auto;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
@@ -46,5 +46,3 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-
-
