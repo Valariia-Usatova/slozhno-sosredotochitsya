@@ -4,4 +4,18 @@
 */
 :root {
   --font-family: "IBM Plex mono", sans-serif;
+  --accent-color: #ff0070;
+  --accent-color-title: #000028;
+  --accent-color-text: #f1b2ce;
+  --accent-color-section-title: var(--accent-color);
+  --accent-color-button-active: var(--accent-color);
+  --color-menu-list: var(--accent-color);
+  --background-image: url(../images/cover-image-dark.png);
+  --accent-color-header-title: #db00ff;
+  --accent-color-shadow: var(--accent-color);
+  --accent-color-title-decor: var(--accent-color);
+  --color-content-text-title: var(--accent-color);
+  --accent-color-hover: #ff007040;
+  --color-link: var(--accent-color);
+  --accent-color-decorated: var(--accent-color);
 }
