@@ -313,6 +313,10 @@
 }
 
 @media (max-width: 1023px) {
+  .header__title {
+    text-shadow: 4px 4px 0 var(--accent-color-shadow-mobile);
+  }
+
   .header__theme-menu {
     justify-self: end;
     margin-top: 172px;
@@ -352,6 +356,10 @@
   .fish {
     gap: 20px;
   }
+
+  .footer__title {
+    text-shadow: 4px 4px 0 var(--accent-color-shadow-mobile);
+  }
 }
 
 @media (max-width: 767px) {
@@ -379,7 +387,7 @@
     margin-left: 0;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 95.7px;
-    text-shadow: 4px 4px 0 var(--accent-color-shadow);
+    text-shadow: 4px 4px 0 var(--accent-color-shadow-mobile);
     color: var(--accent-color-header-title);
   }
 

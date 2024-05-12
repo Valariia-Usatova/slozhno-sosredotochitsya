@@ -18,6 +18,7 @@
   --color-menu-list: var(--accent-color-text);
   --accent-color-title-decor: var(--accent-color);
   --accent-color-shadow: #ff0070;
+  --accent-color-shadow-mobile: #ff8dcb;
   --accent-color-header-title: #ffc2e6;
   --color-content-text-title: var(--accent-color-text);
   --accent-color-hover: #32312d40;
@@ -40,6 +41,7 @@
     --color-menu-list: var(--accent-color-text);
     --accent-color-title-decor: var(--accent-color);
     --accent-color-shadow: #ff0070;
+    --accent-color-shadow-mobile: #ff8dcb;
     --accent-color-header-title: #ffc2e6;
     --color-content-text-title: var(--accent-color-text);
     --accent-color-hover: #32312d40;
