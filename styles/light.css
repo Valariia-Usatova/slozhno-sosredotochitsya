@@ -48,8 +48,8 @@
     --color-link: var(--accent-color);
     --accent-color-decorated: var(--accent-color-title);
   }
-}
 
-.header__rec {
-  display: none;
+  .header__rec {
+    display: none;
+  }
 }
