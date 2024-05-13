@@ -17,6 +17,7 @@
   --color-menu-list: var(--accent-color);
   --background-image: url(../images/cover-image-dark.png);
   --accent-color-header-title: #db00ff;
+  --accent-color-shadow-mobile:var(--accent-color);
   --accent-color-shadow: var(--accent-color);
   --accent-color-title-decor: var(--accent-color);
   --color-content-text-title: var(--accent-color);
@@ -40,6 +41,7 @@
     --background-image: url(../images/cover-image-dark.png);
     --accent-color-header-title: #db00ff;
     --accent-color-shadow: var(--accent-color);
+    --accent-color-shadow-mobile:var(--accent-color);
     --accent-color-title-decor: var(--accent-color);
     --color-content-text-title: var(--accent-color);
     --accent-color-hover: #ff007040;
