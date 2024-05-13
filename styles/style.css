@@ -207,7 +207,7 @@
 }
 
 .advice__content-item-paragraph {
-  margin-top: 8px;
+  margin-top: 9px;
   color: var(--accent-color-text);
 }
 
@@ -421,14 +421,20 @@
     margin-top: 50px;
     inline-size: 100%;
   }
+
   .fish {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
   }
 
+  .advice__content-item-paragraph {
+    margin-top: 8px;
+    color: var(--accent-color-text);
+  }
+
   .images__title {
-    margin-top: 52px;
+    margin-top: 53px;
     margin-bottom: 10px;
   }
 
