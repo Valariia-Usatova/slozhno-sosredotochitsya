@@ -434,7 +434,6 @@
 
   .images__title {
     margin-top: 52px;
-    margin-bottom: 10px;
   }
 
   .images__gallery {
@@ -442,6 +441,10 @@
     flex-direction: column;
     gap: 10px;
     margin-top: 0;
+  }
+
+  .sunset {
+    margin-top: 10px;
   }
 
   .footer__title {
