@@ -323,13 +323,10 @@
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: column;
-    gap: 10px;
   }
 
   .header__paragraph {
-    inline-size: 50%;
     margin-bottom: 16px;
   }
 
@@ -387,14 +384,9 @@
     margin-left: 0;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     line-height: 95.7px;
-    text-shadow: 4px 4px 0 var(--accent-color-shadow-mobile);
-    color: var(--accent-color-header-title);
   }
 
   .header__paragraph {
-    color: var(--accent-color-title);
-    font-weight: 700;
-    line-height: 23.4px;
     inline-size: 100%;
     margin-bottom: 0;
   }
@@ -404,9 +396,7 @@
   }
 
   .concentration {
-    display: flex;
     flex-direction: column;
-    gap: 20px;
   }
 
   .concentration__title {
