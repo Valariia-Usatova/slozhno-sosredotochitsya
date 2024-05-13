@@ -427,13 +427,16 @@
     flex-direction: column;
     margin-top: 50px;
   }
+  .advice__content-item-title {
+    margin-top: 18.5px;
+  }
 
   .advice__content-item-paragraph {
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .images__title {
-    margin-top: 52px;
+    margin-top: 50px;
   }
 
   .images__gallery {
